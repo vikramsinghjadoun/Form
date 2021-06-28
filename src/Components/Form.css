@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  width: 90%;
+  box-shadow: inset -2px -2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+.heading {
+  font-size: 2rem;
+  color: #444;
+  font-weight: bold;
+  text-align: center;
+  margin: 18px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+form label {
+  font-size: 1.5rem;
+  color: #666;
+}
+form input {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  background: rgb(212, 211, 211);
+  border-radius: 5px;
+  outline: none;
+}
+form select {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  background: rgb(212, 211, 211);
+  border-radius: 5px;
+  outline: none;
+}
+form textarea {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  background: rgb(212, 211, 211);
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+.btn {
+  height: 60px;
+  margin: 10px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #555;
+  font-weight: 800;
+  font-size: 1.2rem;
+  box-shadow: inset -2px -2px 5px rgba(0, 0, 0, 0.4);
+}
+.btn:hover {
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.button-div {
+  display: flex;
+}
